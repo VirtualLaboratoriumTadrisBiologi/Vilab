@@ -41,6 +41,7 @@ html::-webkit-scrollbar-thumb{
   text-transform:capitalize
 }
 
+
 section{
   padding:2rem 7%;
 }
@@ -147,7 +148,6 @@ header .navbar a:hover{
   padding: 1rem 0;
   line-height: 2.5;
 }
-
 
 
 
