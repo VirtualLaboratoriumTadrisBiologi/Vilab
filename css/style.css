@@ -303,12 +303,44 @@ header .navbar a:hover{
   border-top: .1rem solid rgba(0,0,0,.1);
   color:#666;
 }
-
-.footer .credit span{
+.footer .credit span a{
   color:var(--hijaumuda);
 }
 
 
+/* Team */
+.team .box-leader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team .box-leader h3{
+  padding-top: 2.5rem;
+  font-size: 2rem;
+}
+.team .box-leader p{
+  font-size: 1.5rem;
+}
+.team .box-team{
+  text-align: center;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: -1.5rem;
+}
+.team .box-team .box-name{
+  flex:1 1 20rem;
+}
+.team .box-team .box-name h3{
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+}
+.team .box-team .box-name p{
+  font-size: 1.2rem;
+}
 
 
 
@@ -375,7 +407,9 @@ header .navbar a:hover{
     font-size: 50%;
   }
 
-           
-  
-
 } 
+
+
+
+
+
